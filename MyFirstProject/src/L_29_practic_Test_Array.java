@@ -40,11 +40,18 @@ public class L_29_practic_Test_Array {
 
 
         //PORNLEM :---5
-        int arr[]={2,5,7,8,9,3,5,7,5,8,5,65};
+        int [] arr={2,5,7,8,9,3,5,7,5,8,5,65};
         int n= Math.floorDiv(arr.length,2); // इसका अर्थ है कि arr.length को 2 से भाग दिया जाएगा।
+        int temp; //tempory boc create kiye hai
         for (int i=0;i<n;i++){
-                    //Swap a[i] and a[arr.length-1-i]
-                    //Swap ka formula
+                    //Swap a[i] and a[arr.length-i-1]
+                    //Swap karne ka tarika given below
+            temp=arr[i];          //array arr[i] ki value temp me store kar diye fir
+            arr[i]=arr[arr.length-i-1];//arr[i] ki value arr[arr.length-i-1] me store kara diye fir
+            arr[arr.length-i-1]=temp;//iska matlab arr[arr.length-i-1] ki value temp me store hai
+        }
+        for (int element: arr){
+            System.out.println(element);
 
         }
 
