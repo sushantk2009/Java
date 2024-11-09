@@ -1,3 +1,5 @@
+
+//     Samajh nhi aaya ye lacture
 public class L_34_Recursion {
     static int factorial_ittrative(int n){
         if (n == 0 || n == 1) {

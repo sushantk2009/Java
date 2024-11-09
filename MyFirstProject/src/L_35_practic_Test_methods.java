@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class L_35_practic_Test_methods {
     //method problem --:1
     static void multiplication(int n){
@@ -35,9 +37,9 @@ public class L_35_practic_Test_methods {
         }
     }
     //method problem --:5
-    //PrintFibonacci series
+    //Print Fibonacci series
      //0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, ....
-     //14:12
+
 
 
     public static void main(String[] args) {
@@ -54,6 +56,30 @@ public class L_35_practic_Test_methods {
         System.out.println("Problem 3:");
         int c= sumRec(3);
         System.out.println(c);
+        //PROBLEM 5:-
+//        int result =feb(n);
+//        System.out.println(result);
+
+
+
+
+        //Print Fibonacci series by using for loop
+        //0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, ....
+        //a, b
+        Scanner sc= new Scanner(System.in);
+        System.out.println("Enter The Value for Fibonacci series: ");
+        int a=0;//Assign First value a=0
+        int b=1;//Assign second value b=1
+        int d;//Take a veriable
+        int point= sc.nextInt(); // kaha tak Print karana hai series ko
+        for(int i=0;i<=point;i++){
+            System.out.print(a+" ");
+            c=a+b;
+            a=b;
+            b=c;
+
+
+        }
 
     }
 }

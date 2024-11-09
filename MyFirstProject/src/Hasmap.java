@@ -17,7 +17,7 @@ public class Hasmap {
 
 
         //Search        -----Key hai ya nhi
-        if (map.containsKey("China")){      //agar exist karta hoga china to true return karega wahna false
+        if (map.containsKey("China")){      //agar exist karta hoga china to true return karega wahna nhi
             System.out.println("Present in The map");
         }
         else {
@@ -25,7 +25,7 @@ public class Hasmap {
         }
         // Key ke Sath kon si value Exist karti hai
         System.out.println(map.get("India")); // India ki value 140 print hogi
-        System.out.println(map.get("Pakistan"));//Pakistan name ki key nhi hai to null print hoha
+        System.out.println(map.get("Pakistan"));//Pakistan name ki key nhi hai to null print hoga
         //Print arrys elemtnt in using for loop:---------
         //Two ways to print arrys elemrnt
         // 1 st
