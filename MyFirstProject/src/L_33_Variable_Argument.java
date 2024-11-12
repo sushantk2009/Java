@@ -1,15 +1,15 @@
 public class L_33_Variable_Argument {
 
-//    static int sum(int a,int b){                             ---↓
-//        return a+b;                                          ---↓
-//    }                                                        ---↓
-//    static int sum(int a,int b, int c){                      ---↓
-//        return a+b+c;                                        ---↓
-//    }                                                        ---↓
-//    static int sum(int a,int b,int c,int d){                 ---↓
-//        return a+b+c+d;                                      ---↓
-//    }                                                        ---↓
-//   //itne sare method banane ki jarurat nhi hai// ye niche wala bss bana shakte hai ↓
+    static int sum(int a,int b){                           //  ---↓
+        return a+b;                                        //  ---↓
+    }                                                      //  ---↓
+    static int sum(int a,int b, int c){                    //  ---↓
+        return a+b+c;                                      //  ---↓
+    }                                                      //  ---↓
+    static int sum(int a,int b,int c,int d){               //  ---↓
+        return a+b+c+d;                                    //  ---↓
+    }                                                      //  ---↓
+   //itne sare method banane ki jarurat nhi hai// ye niche wala bss bana shakte hai ↓
                     //jitne bhi argument mile usko array ke form me de do----> (int ...arr)
 static int sum(int ...arr){
     //Available as int [] arr;
