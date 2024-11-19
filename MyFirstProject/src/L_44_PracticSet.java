@@ -43,7 +43,7 @@ class Rectangle{
         this.breadth = 5;
     }
 
-    public Rectangle(int length, int breadth) {
+    public Rectangle(int length, int breadth) { //constructor hai ye 
         this.length = length;
         this.breadth = breadth;
     }
