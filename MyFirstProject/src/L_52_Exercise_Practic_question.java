@@ -13,7 +13,7 @@ class Circle{
 class Cylender1 extends Circle{
         Cylender1(int r,int h){
             super(r);
-            System.out.println("I am Cylender1 parametrised Constructor :");
+            System.out.println("I am Cylender1 parametrised  Constructor :");
             this.height=h;
 
         }
